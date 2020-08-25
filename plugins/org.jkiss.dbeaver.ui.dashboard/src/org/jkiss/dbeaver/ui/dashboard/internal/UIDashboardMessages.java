@@ -23,6 +23,15 @@ public class UIDashboardMessages extends NLS {
 
     public static String pref_page_dashboards_group_common;
     public static String pref_page_dashboards_open_separate_connection_label;
+    /*New strings*/
+    /*DashboardAddDialog*/
+    public static String dashboard_add_dialog_adding_dialog_name;
+    public static String dashboard_add_dialog_table_name;
+    public static String dashboard_add_dialog_table_description;
+    public static String dashboard_add_dialog_over_control_message;
+    public static String dashboard_add_dialog_manager_button;
+    public static String dashboard_add_dialog_add_button;
+    public static String dashboard_add_dialog_cancel_button;
 
 
     static {
