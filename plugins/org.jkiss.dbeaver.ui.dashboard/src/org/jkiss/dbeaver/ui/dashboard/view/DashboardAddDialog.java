@@ -17,9 +17,7 @@
 package org.jkiss.dbeaver.ui.dashboard.view;
 
 import org.eclipse.jface.dialogs.IDialogConstants;
-import org.eclipse.jface.dialogs.IDialogLabelKeys;
 import org.eclipse.jface.dialogs.IDialogSettings;
-import org.eclipse.jface.resource.JFaceResources;
 import org.eclipse.jface.viewers.*;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
@@ -52,7 +50,7 @@ public class DashboardAddDialog extends BaseDialog {
     private DashboardDescriptor selectedDashboard;
 
     public DashboardAddDialog(Shell parentShell, DashboardViewConfiguration viewConfiguration) {
-        super(parentShell, UIDashboardMessages.dashboard_add_dialog_adding_dialog_name, null); // NEW
+        super(parentShell, UIDashboardMessages.dashboard_add_dialog_window_name, null); // NEW
 
         this.viewConfiguration = viewConfiguration;
     }
