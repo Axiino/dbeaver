@@ -34,6 +34,31 @@ public class UIDashboardMessages extends NLS {
     public static String dashboard_add_dialog_cancel_button;
     /*DashboardDatabaseSelectDialog*/
     public static String dashboard_database_select_dialog_window_name;
+    /*DashboardEditDialog*/
+    public static String dashboard_edit_dialog_create_info_label;
+    public static String dashboard_edit_dialog_info_group;
+    public static String dashboard_edit_dialog_id_label;
+    public static String dashboard_edit_dialog_database_label;
+    public static String dashboard_edit_dialog_select_button;
+    public static String dashboard_edit_dialog_data_type_label;
+    public static String dashboard_edit_dialog_data_type_hint;
+    public static String dashboard_edit_dialog_calc_type_label;
+    public static String dashboard_edit_dialog_calc_type_hint;
+    public static String dashboard_edit_dialog_value_type_label;
+    public static String dashboard_edit_dialog_value_type_hint;
+    public static String dashboard_edit_dialog_interval_label;
+    public static String dashboard_edit_dialog_interval_hint;
+    public static String dashboard_edit_dialog_fetch_type_label;
+    public static String dashboard_edit_dialog_fetch_type_hint;
+    public static String dashboard_edit_dialog_queries_label;
+    public static String dashboard_edit_dialog_queries_info;
+    public static String dashboard_edit_dialog_rendering_label;
+    public static String dashboard_edit_dialog_default_view_label;
+    public static String dashboard_edit_dialog_default_view_hint;
+    public static String dashboard_edit_dialog_update_period_label;
+    public static String dashboard_edit_dialog_maximum_items_label;
+
+    
 
 
     static {
