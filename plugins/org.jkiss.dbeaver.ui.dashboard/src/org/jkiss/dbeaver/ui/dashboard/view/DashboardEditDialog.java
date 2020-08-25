@@ -95,7 +95,7 @@ public class DashboardEditDialog extends BaseDialog {
         }
 
         {
-            Group infoGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_info_group, 4, GridData.FILL_HORIZONTAL, 0);
+            Group infoGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_main_info_group_label, 4, GridData.FILL_HORIZONTAL, 0);
 
             idText = UIUtils.createLabelText(infoGroup, UIDashboardMessages.dashboard_edit_dialog_id_label, dashboardDescriptor.getId(), SWT.BORDER | baseStyle);
             idText.setLayoutData(new GridData(GridData.FILL, GridData.BEGINNING, true, false, 3, 1));
@@ -175,7 +175,7 @@ public class DashboardEditDialog extends BaseDialog {
         }
 
         {
-            Group sqlGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_queries_label, 1, GridData.FILL_BOTH, 0);
+            Group sqlGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_queries_group_label, 1, GridData.FILL_BOTH, 0);
             queryText = new Text(sqlGroup, SWT.BORDER | SWT.MULTI | SWT.V_SCROLL | SWT.WRAP | baseStyle);
             GridData gd = new GridData(GridData.FILL_BOTH);
             gd.heightHint = 100;
@@ -202,7 +202,7 @@ public class DashboardEditDialog extends BaseDialog {
         }
 
         {
-            Group updateGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_rendering_label, 2, GridData.FILL_HORIZONTAL, 0);
+            Group updateGroup = UIUtils.createControlGroup(composite, UIDashboardMessages.dashboard_edit_dialog_rendering_group_label, 2, GridData.FILL_HORIZONTAL, 0);
 
             viewTypeCombo = UIUtils.createLabelCombo(updateGroup, UIDashboardMessages.dashboard_edit_dialog_default_view_label, UIDashboardMessages.dashboard_edit_dialog_default_view_hint, SWT.BORDER | SWT.READ_ONLY);
             viewTypeCombo.setLayoutData(new GridData(GridData.FILL_HORIZONTAL));

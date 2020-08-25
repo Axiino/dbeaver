@@ -36,7 +36,7 @@ public class UIDashboardMessages extends NLS {
     public static String dashboard_database_select_dialog_window_name;
     /*DashboardEditDialog*/
     public static String dashboard_edit_dialog_create_info_label;
-    public static String dashboard_edit_dialog_info_group;
+    public static String dashboard_edit_dialog_main_info_group_label;
     public static String dashboard_edit_dialog_id_label;
     public static String dashboard_edit_dialog_database_label;
     public static String dashboard_edit_dialog_select_button;
@@ -50,13 +50,30 @@ public class UIDashboardMessages extends NLS {
     public static String dashboard_edit_dialog_interval_hint;
     public static String dashboard_edit_dialog_fetch_type_label;
     public static String dashboard_edit_dialog_fetch_type_hint;
-    public static String dashboard_edit_dialog_queries_label;
+    public static String dashboard_edit_dialog_queries_group_label;
     public static String dashboard_edit_dialog_queries_info;
-    public static String dashboard_edit_dialog_rendering_label;
+    public static String dashboard_edit_dialog_rendering_group_label;
     public static String dashboard_edit_dialog_default_view_label;
     public static String dashboard_edit_dialog_default_view_hint;
     public static String dashboard_edit_dialog_update_period_label;
     public static String dashboard_edit_dialog_maximum_items_label;
+    /*DashboardItemConfigDialog*/
+    public static String dashboard_item_config_dialog_dashboard_info_group_label;
+    public static String dashboard_item_config_dialog_sql_queries_text;
+    public static String dashboard_item_config_dialog_sql_viewer_title;
+    public static String dashboard_item_config_dialog_dashboard_update_group_label;
+    public static String dashboard_item_config_dialog_dashboard_view_group_label;
+    public static String dashboard_item_config_dialog_view_label;
+    public static String dashboard_item_config_dialog_legend_checkbox;
+    public static String dashboard_item_config_dialog_legend_checkbox_hint;
+    public static String dashboard_item_config_dialog_grid_checkbox;
+    public static String dashboard_item_config_dialog_grid_checkbox_hint;
+    public static String dashboard_item_config_dialog_domain_axis_checkbox;
+    public static String dashboard_item_config_dialog_domain_axis_checkbox_hint;
+    public static String dashboard_item_config_dialog_range_axis_checkbox;
+    public static String dashboard_item_config_dialog_range_axis_checkbox_hint;
+    public static String dashboard_item_config_dialog_configuration_button;
+    
 
     
 
