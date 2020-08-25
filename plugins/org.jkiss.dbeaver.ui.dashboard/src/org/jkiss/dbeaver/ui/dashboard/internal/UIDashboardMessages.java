@@ -73,6 +73,9 @@ public class UIDashboardMessages extends NLS {
     public static String dashboard_item_config_dialog_range_axis_checkbox;
     public static String dashboard_item_config_dialog_range_axis_checkbox_hint;
     public static String dashboard_item_config_dialog_configuration_button;
+    /*DashboardItemViewDialog*/
+    public static String dashboard_item_view_dialog_window_name;
+    public static String dashboard_item_view_dialog_close_button;
     
 
     
