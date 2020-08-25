@@ -76,6 +76,14 @@ public class UIDashboardMessages extends NLS {
     /*DashboardItemViewDialog*/
     public static String dashboard_item_view_dialog_window_name;
     public static String dashboard_item_view_dialog_close_button;
+    /*DashboardManagerDialog*/
+    public static String dashboard_manager_dialog_window_name;
+    public static String dashboard_manager_dialog_new_dashboard_button;
+    public static String dashboard_manager_dialog_copy_button;
+    public static String dashboard_manager_dialog_edit_button;
+    public static String dashboard_manager_dialog_delete_button;
+    public static String dashboard_manager_dialog_delete_dashboard_title;
+    public static String dashboard_manager_dialog_delete_dashboard_question;
     
 
     
