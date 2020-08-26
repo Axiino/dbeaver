@@ -26,6 +26,7 @@ import org.jkiss.dbeaver.ui.dashboard.control.DashboardItem;
 import org.jkiss.dbeaver.ui.dashboard.control.DashboardList;
 import org.jkiss.dbeaver.ui.dashboard.control.DashboardListViewer;
 import org.jkiss.dbeaver.ui.dashboard.internal.UIDashboardActivator;
+import org.jkiss.dbeaver.ui.dashboard.internal.UIDashboardMessages;
 import org.jkiss.dbeaver.ui.dashboard.model.DashboardViewContainer;
 import org.jkiss.dbeaver.ui.dialogs.BaseDialog;
 
@@ -40,7 +41,7 @@ public class DashboardItemViewDialog extends BaseDialog {
     private final DashboardItem sourceItem;
 
     public DashboardItemViewDialog(DashboardViewContainer parentPart, DashboardItem sourceItem) {
-        super(parentPart.getSite().getShell(), "View Dashboard", null);
+        super(parentPart.getSite().getShell(), UIDashboardMessages.dashboard_item_view_dialog_window_name, null);
 
         this.parentPart = parentPart;
         this.sourceItem = sourceItem;
@@ -79,7 +80,8 @@ public class DashboardItemViewDialog extends BaseDialog {
 
     @Override
     protected void createButtonsForButtonBar(Composite parent) {
-        createButton(parent, IDialogConstants.OK_ID, IDialogConstants.CLOSE_LABEL, true);
+        //createButton(parent, IDialogConstants.OK_ID, IDialogConstants.CLOSE_LABEL, true);
+    	createButton(parent, IDialogConstants.OK_ID, UIDashboardMessages.dashboard_item_view_dialog_close_button, true);
 
         UIUtils.asyncExec(() -> getButton(IDialogConstants.OK_ID).setFocus());
     }
